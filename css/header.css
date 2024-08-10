@@ -1,0 +1,17 @@
+
+
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    color: #0a3871;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: monospace;
+}

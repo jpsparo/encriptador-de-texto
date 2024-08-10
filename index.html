@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="cabecera">
+      <img class= "cabecera__logo" src="./image/Logo.png" alt="logo de Alura">
+      <h1 class="cabecera__titulo">Encriptador de texto</h1>
+  </header>
+
+  <main class="main">
+    <section class="section1">
+      <textarea class="text-area" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+      <div>
+        <h6 class="information"> <img class="icono" src="./image/signo admiracion1.png">letras minúsculas y sin acentos</h6>
+      </div>
+      <div class="buttons">
+        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section class="section2">
+      <textarea class="message" cols="40" rows="10"></textarea>
+      <div class="buttons">
+        <button class="btn-copy" onclick="copiar()">Copiar</button>
+      </div>
+    </section>
+  </main>
+  <footer class="rodapie">
+      <h3 class="rodapie__titulo">Juan Pablo Sparo 2023</h2>
+      <p class="rodapie__descripcion">Contacto</p>
+      <ul class="rodapie__lista">
+          <li class="rodapie__item"><a class="rodapie__icon" href="#"><img class="iconos-contacto" alt="WhatsApp" src="./image/WhatsApp.png"></a></li>
+          <li class="rodapie__item"><a class="rodapie__icon" href="#" ><img class="iconos-contacto" alt="Email" src="./image/email.png"></a></li>
+          <li class="rodapie__item"><a class="rodapie__icon" href="#"><img class="iconos-contacto" alt="Instagram" src="./image/Instagram.png"></a></li>
+      </ul>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
